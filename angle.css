@@ -1,0 +1,68 @@
+#logo {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 360px;
+  text-align: center;
+}
+
+.navbar {
+  width: 90%;
+  max-width: 1500px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar-toggler {
+  border-radius: 10px;
+  margin: 7px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+td {
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+li {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+
+.pagecontent {
+  width: 90%;
+  max-width: 1500px;
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttonGroup {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

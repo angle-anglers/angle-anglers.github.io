@@ -2,42 +2,89 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="angle.css" rel="stylesheet">
     <title>Angle Anglers</title>
   </head>
 
   <body>
-	  <h1>SWE Project - Angle Anglers</h1>
-    <div class="grid-container">
-      <!--HEADER-->
-      <div class="grid-item header">
-        <a href="#about">About</a>
-        <a href="#team">Team</a>
-        <a href="#Deliverables">Deliverables</a>
+    <div id="logo"><img src="badlogo.png" style="width:600px;"></div>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light " style="background-color: lightblue;">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Resources
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">SRS</a></li>
+                <li><a class="dropdown-item" href="#">Diagrams</a></li>
+                <li><a class="dropdown-item" href="#">Bibliography</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./download.html">Download</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!--ABOUT-->
-      <div id="about" class="grid-item about">
-        <h2>Project background</h2>
-        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-        <h2>Project description</h2>
-        <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
-      </div>
-      <!--TEAM-->
-      <div id="team" class="grid-item sidebar">
-        <h2>Meet the Team</h2>
-        <div>Member 1</div>
-        <div>Member 2</div>
-        <div>Member 3</div>
-        <div>Member 4</div>
-      </div>
-      <!--DELIVERABLES-->
-      <div id="Deliverables" class="grid-item deliverables">
-        <h2>Deliverables</h2>
-        <ul>
-          <li><a href="">link 1</a></li>
-          <li><a href="">link 2</a></li>
-          <li><a href="">link 3</a></li>
-        </ul>
+    </nav>
+    <div class="pagecontent">
+      <div class="grid-container">
+        <!--HEADER-->
+        <div class="grid-item header">
+          <a href="#about">About</a>
+          <a href="#team">Team</a>
+          <a href="#Deliverables">Deliverables</a>
+        </div>
+        <!--ABOUT-->
+        <div id="about" class="grid-item about">
+          <h2>Project background</h2>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <h2>Project description</h2>
+          <p>All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
+        </div>
+        <!--TEAM-->
+        <div id="team" class="grid-item sidebar">
+          <h2>Meet the Team</h2>
+          <div>Member 1</div>
+          <div>Member 2</div>
+          <div>Member 3</div>
+          <div>Member 4</div>
+        </div>
+        <!--DELIVERABLES-->
+        <div id="Deliverables" class="grid-item deliverables">
+          <h2>Deliverables</h2>
+          <ul>
+            <li><a href="">link 1</a></li>
+            <li><a href="">link 2</a></li>
+            <li><a href="">link 3</a></li>
+          </ul>
+        </div>
       </div>
     </div>
+    <div class="buttonGroup">
+      <a href="./team.html"><button type="button" class="btn btn-primary btn-lg">Team</button></a>
+      <a href="./team.html"><button type="button" class="btn btn-primary btn-lg">SRS</button></a>
+      <a href="./team.html"><button type="button" class="btn btn-primary btn-lg">Diagrams</button></a>
+      <a href="./team.html"><button type="button" class="btn btn-primary btn-lg">Bibliography</button></a>
+      <a href="https://github.com/angle-anglers/angle-anglers.github.io" target="_blank"><button type="button"
+        class="btn btn-secondary btn-lg">GitHub</button></a>
+      <a href="./team.html"><button type="button" class="btn btn-warning btn-lg">Download</button></a>
+    </div>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <script src="angle.js"></script>
 </html>
