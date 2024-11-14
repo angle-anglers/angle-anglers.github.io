@@ -144,7 +144,13 @@ object {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  width: 290px;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .team-member {
+    width: 290px;
+  }
 }
 
 .team-member-link {
