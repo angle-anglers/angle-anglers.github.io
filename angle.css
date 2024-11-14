@@ -135,7 +135,6 @@ object {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  /* border: solid red; */
 }
 
 .team-member {
@@ -145,7 +144,7 @@ object {
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
-  width: 350px;
+  width: 290px;
 }
 
 .team-member-link {
