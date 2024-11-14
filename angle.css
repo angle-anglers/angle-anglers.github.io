@@ -64,6 +64,11 @@ li {
   font-weight: bold;
 }
 
+.download-navbar {
+  background-color: #ff851b;
+  border-radius: 10px;
+  padding: 5p;
+}
 
 .pagecontent {
   width: 90%;
@@ -71,6 +76,13 @@ li {
   padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+hr {
+  color: #ff851b;
+  opacity: 1;
+  border-width: 2px;
 }
 
 .buttonGroup {
@@ -98,19 +110,26 @@ button {
   color: white;
 }
 
-/* Team.html CSS */
-
-#team-title {
+#page-title {
   background-color: #0074d9;
   color: white;
-  font-size: 2.5em;
+  font-size: 3em;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
   padding: 5px;
   border-radius: 10px;
 }
+
+object {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Team.html CSS */
 
 .team-container {
   display: flex;
@@ -123,7 +142,7 @@ button {
   color: white;
   text-align: center;
   padding: 10px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 10px;
   width: 100%;
 }
@@ -136,4 +155,8 @@ button {
 
 .team-member-link {
     color: white;
+}
+
+.member {
+  border-radius: 10px;
 }
