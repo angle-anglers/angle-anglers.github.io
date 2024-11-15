@@ -50,8 +50,12 @@
             <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleSRS"
                  data-bs-toggle="button" aria-pressed="true"
                 data-aria-expanded="false" aria-controls="collapsibleSRS">SRS</button>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleRequirements"
+                aria-expanded="false" aria-controls="collapsibleRequirements">Requirements</button>
             <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleDiagrams"
                 aria-expanded="false" aria-controls="collapsibleDiagrams">Diagrams</button>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleSlides"
+                aria-expanded="false" aria-controls="collapsibleSlides">Slides</button>
             <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleBibliography"
                 aria-expanded="false" aria-controls="collapsibleBibliography">Bibliography</button>
         </div>
@@ -63,9 +67,21 @@
                 </div>
             </div>
 
+            <div class="collapse" id="collapsibleRequirements" data-bs-parent="#accordion">
+                <div class="card card-body">
+                    <object class="pdf" data="./files/Requirements.pdf" width="80%" height="800px"></object>
+                </div>
+            </div>
+
             <div class="collapse" id="collapsibleDiagrams" data-bs-parent="#accordion">
                 <div class="card card-body">
-                    <object class="pdf" data="./files/SRS.pdf" width="80%" height="800px"></object>
+                    <object class="pdf" data="./files/Diagrams.pdf" width="80%" height="800px"></object>
+                </div>
+            </div>
+
+            <div class="collapse" id="collapsibleSlides" data-bs-parent="#accordion">
+                <div class="card card-body">
+                    <object class="pdf" data="./files/Slides.pdf" width="80%" height="800px"></object>
                 </div>
             </div>
 
