@@ -11,7 +11,7 @@ h1 {
 }
 
 .navbar {
-  width: 90%;
+  width: 80%;
   max-width: 1500px;
   border-radius: 10px;
   margin-left: auto;
@@ -65,18 +65,41 @@ li {
 }
 
 .download-navbar {
+  width: 130px;
   background-color: #ff851b;
   border-radius: 10px;
-  padding: 5p;
+  padding-left: 3px;
+}
+
+#page-title {
+  background-color: #0074d9;
+  color: white;
+  font-size: 3em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .pagecontent {
-  width: 90%;
+  width: 80%;
   max-width: 1500px;
   padding-top: 20px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+video {
+  width: 50%;
+  min-width: 500px;
+  border: solid #ff851b 8px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 hr {
@@ -110,23 +133,14 @@ button {
   color: white;
 }
 
-#page-title {
-  background-color: #0074d9;
-  color: white;
-  font-size: 3em;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px;
-  border-radius: 10px;
-}
-
 object {
   margin-left: auto;
   margin-right: auto;
+}
+
+.card {
+  border: solid #ff851b;
+  margin-bottom: 15px;
 }
 
 /* Team.html CSS */
@@ -134,7 +148,7 @@ object {
 .team-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .team-member {
@@ -159,4 +173,9 @@ object {
 
 .member {
   border-radius: 10px;
+}
+
+.professional-icon {
+  height: 30px;
+  margin: 5px
 }
