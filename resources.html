@@ -27,9 +27,12 @@
                 Resources
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">SRS</a></li>
-                <li><a class="dropdown-item" href="#">Diagrams</a></li>
-                <li><a class="dropdown-item" href="#">Bibliography</a></li>
+                <li><a class="dropdown-item" href="./resources.html">SRS</a></li>
+                <li><a class="dropdown-item" href="./resources.html">Requirements</a></li>
+                <li><a class="dropdown-item" href="./resources.html">Diagrams</a></li>
+                <li><a class="dropdown-item" href="./resources.html">Slides</a></li>
+                <li><a class="dropdown-item" href="./resources.html">Original Description</a></li>
+                <li><a class="dropdown-item" href="./resources.html">Bibliography</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -56,6 +59,8 @@
                 aria-expanded="false" aria-controls="collapsibleDiagrams">Diagrams</button>
             <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleSlides"
                 aria-expanded="false" aria-controls="collapsibleSlides">Slides</button>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleDescription"
+                aria-expanded="false" aria-controls="collapsibleDescription">Original Project Description</button>
             <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleBibliography"
                 aria-expanded="false" aria-controls="collapsibleBibliography">Bibliography</button>
         </div>
@@ -82,6 +87,12 @@
             <div class="collapse" id="collapsibleSlides" data-bs-parent="#accordion">
                 <div class="card card-body">
                     <object class="pdf" data="./files/Slides.pdf" width="80%" height="800px"></object>
+                </div>
+            </div>
+
+            <div class="collapse" id="collapsibleDescription" data-bs-parent="#accordion">
+                <div class="card card-body">
+                    <object class="pdf" data="./files/project-description.pdf" width="80%" height="800px"></object>
                 </div>
             </div>
 
