@@ -83,6 +83,9 @@ li {
   margin-right: auto;
   padding: 5px;
   border-radius: 10px;
+  width: fit-content;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .pagecontent {
