@@ -9,7 +9,7 @@
   </head>
 
   <body>
-    <div id="logo"><img src="./images/icons/logo.png" style="width:400px;"></div>
+    <div id="logo"><img src="./images/icons/logo.png" style="width:350px;"></div>
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -39,9 +39,10 @@
         <h1 id="page-title">Resources</h1>
         
         <div class="buttonGroup">
-            <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleSRS"
-                 data-bs-toggle="button" aria-pressed="true"
-                data-aria-expanded="false" aria-controls="collapsibleSRS">SRS</button>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleSRSv1"
+                aria-expanded="false" aria-controls="collapsibleSRSv1">SRS v1</button>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleSRSv2"
+                aria-expanded="false" aria-controls="collapsibleSRSv2">SRS v2</button>
             <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleRequirements"
                 aria-expanded="false" aria-controls="collapsibleRequirements">Requirements</button>
             <button class="btn btn-primary btn-lg" data-bs-toggle="collapse" data-bs-target="#collapsibleDiagrams"
@@ -55,9 +56,15 @@
         </div>
 
         <div id="accordion">
-            <div class="collapse" id="collapsibleSRS" data-bs-parent="#accordion">
+            <div class="collapse" id="collapsibleSRSv1" data-bs-parent="#accordion">
                 <div class="card card-body">
-                    <object class="pdf" data="./files/SRS.pdf" width="80%" height="800px"></object>
+                    <object class="pdf" data="./files/SRSv1.pdf" width="80%" height="800px"></object>
+                </div>
+            </div>
+
+            <div class="collapse" id="collapsibleSRSv2" data-bs-parent="#accordion">
+                <div class="card card-body">
+                    <object class="pdf" data="./files/SRSv2.pdf" width="80%" height="800px"></object>
                 </div>
             </div>
 
